@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  header {
+    background-color: #1343e0;
+    height: 80px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background-image: none;
+    background-color: #3d64e6 !important;
+    background-size: cover !important;
+  }
+  header i {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  .container {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 60%;
+  }
+  .search {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .container.up {
+    margin-top: 30%;
+  }
+}

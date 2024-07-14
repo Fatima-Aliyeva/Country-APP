@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url("./wrld1.jpg");
+  /* background-color: #3d64e6; */
+  /* background-image: url("./1.jpg"); */
+  background-size: cover;
+}
+header{
+ font-size: 0%;
+}
+.container {
+  background-color: white;
+  width: 35%;
+  max-height: fit-content;
+  /* height: 60px; */
+  padding: 30px 30px;
+  border-radius: 8px;
+  margin-left: 32%;
+  margin-top: 19%;
+  transition: all 0.2s ease;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding-right: 8px;
+  gap: 15px;
+}
+.search-btn {
+  background-color: #3d64e6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.search-inp {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #3d64e6;
+}
+
+.result {
+  margin-top: 1.25em;
+}
+.result img {
+  margin-left: 33%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35%;
+}
+.result h1 {
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.result p {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.result span {
+  color: #5d6274;
+}
+.container.up {
+  margin-top: 5%;
+}
